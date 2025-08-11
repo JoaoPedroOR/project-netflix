@@ -1,0 +1,118 @@
+
+
+.featured--vertical{
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to top, #111 10%, transparent 90%);
+
+}.featured{
+    height: 100vh;
+    
+}
+
+.featured--horizontal{
+    width: inherit;
+    height: inherit;
+    background: linear-gradient( to right, #111 30%, transparent 70%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+    padding-bottom: 150px;
+    padding-top: 70px;
+}
+
+.featured--name{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+
+.info{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.score{
+
+    color: rgb(74, 145, 74);
+    
+}
+
+.year, .seasson, .score{
+    display:inline-block;
+    margin-right: 15px;
+}
+
+.description{
+    margin-top: 15px;
+    color:gray;
+    font-size: 20px;
+    max-width: 40%;
+}
+
+
+.buttons{
+    margin-top: 15px;
+}
+.button--view, .button--list{
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: bold;
+    padding: 12px 25px;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 20px;
+    opacity: 1;
+}
+
+
+.button--view{
+    background-color: white;
+    color: black;
+    margin-right: 20px;
+}
+
+.button--list{
+    background-color: #333;
+    color:white;
+}
+
+.button--list:hover, .button--view:hover{
+    opacity: 0.7;
+}
+
+.generos{
+    margin-top: 15px;
+    font-size: 18px;
+    color: #999;
+}
+
+@media (max-width: 760px){
+    .featured{
+        height: 90vh;
+    }
+    .featured--name{
+        font-size: 40px;
+    }
+
+    .info{
+        font-size: 16px;
+    }
+
+    .description{
+        font-size: 14px;
+        max-width: 100%;
+        margin-right: 30px;
+    }
+
+    .button--list,
+    .button--view{
+        font-size: 16px;
+    }
+
+    .generos{
+        font-size: 14px;
+    }
+}
