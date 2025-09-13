@@ -4,7 +4,7 @@ import Tmdb from './tmdb';
 import MovieRow from './MovieRow';
 import FeatureMovie from './FeatureMovie'; 
 import Header from './Header';
-
+import React from 'react'
 const App = () => {
   const [movieList, setMovieList] = useState([]);
   const [featureData, setFeatureData] = useState(null);
